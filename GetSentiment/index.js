@@ -6,7 +6,7 @@ module.exports = function (context, req) {
     context.log('-------------------JavaScript HTTP trigger function processed a request.');
 
     // // make sure the input is defined
-    if ((req.query == undefined) || (req.body == undefined)) {
+    if ((req.query === undefined) || (req.body === undefined)) {
             context.res = {
                 status: 400,
                 body: `Invalid input request.query or request.body are not defined`
@@ -17,7 +17,7 @@ module.exports = function (context, req) {
    
     // grab either the query input or the body input and assign to input var
     context.log(`req.query is ${JSON.stringify(req.query)}`);
-    var inputDoc = (req.query.text == undefined) ? req.body : req.query;
+    var inputDoc = (req.query.text === undefined) ? req.body : req.query;
 
     //context.log(`inputDoc ${req.body.toString()}`);
 

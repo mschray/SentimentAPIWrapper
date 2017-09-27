@@ -119,4 +119,3 @@ module.exports.FormatSingleInput = FormatSingleInput;
 module.exports.FormatMultipleInputs = FormatMultipleInputs;
 module.exports.RESTJSONKeyPhraseCall = RESTJSONKeyPhraseCall;
 module.exports.RESTJSONSentimentCall = RESTJSONSentimentCall;
-//module.exports.RESTJSONServiceCall = RESTJSONServiceCall;

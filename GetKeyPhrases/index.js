@@ -5,7 +5,7 @@ var RESTCallHelper = require('../Shared/RESTCallHelper.js')
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
   
-    if ((req.query == undefined) || (req.body == undefined)) {
+    if ((req.query === undefined) || (req.body === undefined)) {
             context.log(`req.query: ${req.query} and req.body ${req.body}`);
             context.res = {
                 status: 400,
@@ -17,7 +17,7 @@ module.exports = function (context, req) {
     } 
  
     // grab either the query input or the body input and assign to input var
-    var inputDoc = (req.query.document == undefined) ? req.body : req.query;
+    var inputDoc = (req.query.document === undefined) ? req.body : req.query;
 
     // make sure the input argument is there is not error
     if (inputDoc) {
