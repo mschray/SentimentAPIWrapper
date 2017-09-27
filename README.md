@@ -1,7 +1,8 @@
 # SentimentAPIWrapper
-Azure Function Wrapper for Azure Cognitive Services Sentiment Service
+Azure Function Wrapper for Azure Cognitive Services Sentiment Service meant to make using Cognitive Services completely turnkey.  See [the test client](https://github.com/mschray/Allie) for examples actually using the service.
 
 You need a local.setting.json file with the following content.  Note you'll need to supply the values for 
+
 - COG_SERVICE_KEY (this will come from your Azure Cognitive Services Account
 - APPISNIGHTS_INSTRUCMENTATIONKEY (is you told Azure Functions you want one of these you get one,
 - AzureWebJobsDashbard (e.g. your Azure Functions web site will provide this so copy paste
@@ -9,6 +10,7 @@ You need a local.setting.json file with the following content.  Note you'll need
 - WEBSITE_CONTENTSHARE (again your Azure Functions site should already have this)
 - WEBSITE_SITE_NAME (again your Azure Functions site should already have this)
 - AzureWebJobsStorage (again your Azure Functions site should already have this)
+
 
 ```
 json
@@ -34,3 +36,4 @@ json
     "AzureWebJobsStorage": ""
   }
 }
+```
