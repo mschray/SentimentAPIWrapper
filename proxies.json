@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "APIGetKeyPhrase": {
+            "matchCondition": {
+                "route": "/api/GetKeyPhrase"
+            },
+            "backendUri": "https://alliesentimentapi.azurewebsites.net/api/GetKeyPhrase?code=mjy38krDSqG011HiNlBhlrqPsiLblB7Yry25FqUVsHmkFTA7xxQE2Q=="
+        },
+        "APIGetKeyPhrases": {
+            "matchCondition": {
+                "route": "/api/GetKeyPhrases"
+            },
+            "backendUri": "https://alliesentimentapi.azurewebsites.net/api/GetKeyPhrases?code=mFSc7a3r0hFLL8dQZaO454TUEZDXjTRFQN5kpxiiMMZWyhzjEJpCNA=="
+        },
+        "APIGetSentiment": {
+            "matchCondition": {
+                "route": "/api/GetSentiment"
+            },
+            "backendUri": "https://alliesentimentapi.azurewebsites.net/api/GetSentiment?code=rBZZXYXi3aaSEVl02Tm2sVaFKOemvPPdspGapOjHDaW2d2UENqFx1Q=="
+        },
+        "APIGetSentiments": {
+            "matchCondition": {
+                "route": "/api/GetSentiments"
+            },
+            "backendUri": "https://alliesentimentapi.azurewebsites.net/api/GetSentiments?code=nDMsG7pOBVs2GzS6vLgjwG2XShHjv2yVvYnSGV5HvwqY8jHeddP20w=="
+        }
+    }
+}
