@@ -1,7 +1,7 @@
 # SentimentAPIWrapper
 Azure Function Wrapper for Azure Cognitive Services Sentiment Service meant to make using Cognitive Services completely turnkey.  See [the test client](https://github.com/mschray/Allie) for examples actually using the service.
 
-You need a local.setting.json file with the following content.  Note you'll need to supply the values for 
+You need to create (or have) a local.setting.json file in the root folder of the project with the following content.  Note you'll need to supply the values for 
 
 - COG_SERVICE_KEY (this will come from your Azure Cognitive Services Account
 - APPISNIGHTS_INSTRUCMENTATIONKEY (is you told Azure Functions you want one of these you get one,
